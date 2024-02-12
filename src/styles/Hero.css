@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main{
+    width: 100%;
+    height: 46rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#working_area{
+    width: 95%;
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 8rem;
+
+}
+
+#div_left{
+    /* margin-top: 10px; */
+    /* border:2px solid black; */
+    width: 100%;
+    padding: 6rem 1rem;
+    
+}
+
+#div_left h1,p,button{
+    margin-bottom: 15px;
+}
+
+#div_left h1{
+    font-family: "Rubik";
+    font-size: 60px;
+    font-family: 700;
+    color: #6674CC;
+}
+
+#div_left h1 span{
+    color: #363A45;
+}
+
+#div_left p{
+    font-size: 36px;
+    font-weight: 500;
+    color: #363A45;
+    font-family: "Rubik";
+}
+
+#div_left button{
+    border-radius: 5px;
+    border: 1px solid #6674CC;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 17px;
+    transition: all ease 0.2s;
+}
+
+#div_left button:active {
+    scale: 0.9;
+}
+
+#btn3{
+    margin-right: 15px;
+    background-color: #6674CC;
+    color: white;
+}
+
+#btn4{
+    background-color: white;
+    color: black;
+}
+
+#div_right {
+    /* margin-top: 50px; */
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div_right img{
+    height: 500px;
+    width: 500;
+}
+
+#review_div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#p_div p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Rubik";
+}
+#p_div span{
+    font-size:16px;
+    font-weight: 400;
+    color: #363A45;
+    font-family: "Rubik";
+}
+
+#img_div img{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+
